@@ -1,0 +1,97 @@
+
+<!--15th April, Test one on Creating Accordian using HTML and CSS only-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="syle.css">
+    </head>
+    
+    <title>Accordian</title>
+    
+<body>
+    
+    <!-- Header section -->
+ 
+    <header>
+	    <h1>Accordian I</h1>
+        <h2>can open any number of items </h2>
+        
+        <!--Div section where we can open multiple items at a single -->
+        <!--This can be approached by using checkbox, since checkbox holds multiple values
+            in the similar manner we can select multiple accordians-->
+        <div class="open_multiple">
+            <div class="item_list">
+                <input type="checkbox" id="chck1">
+                <label class="items" for="chck1">Item 1</label>
+            <div class="description">Item1</div>
+            </div>
+      
+            <div class="item_list">
+                <input type="checkbox" id="chck2">
+                <label class="items" for="chck2">Item 2</label>
+                <div class="description">Item2</div>
+            </div>
+      
+            <div class="item_list">
+                <input type="checkbox" id="chck3">
+                <label class="items" for="chck3">Item 3</label>
+                <div class="description">Item3</div>
+            </div>
+      </div>
+        <!--End of Div Section -->
+        
+    </header>
+    
+     <!-- End of Header section -->
+    
+        
+    <!-- Main section -->
+      
+    <main>
+            <div class="type2">
+            <h1>Accordian II</h1>
+            <h2>can open only one item in a time</h2>
+            </div>
+      
+    </main>
+      
+<!-- End of Main section -->
+    
+<!-- Footer section -->
+    <footer> 
+        
+        <!--Div section where we can open only one  items at a single time -->
+        <!--This can be approached by using radio button from a same group, since 
+            from a single group of radio button we can select only one, just in that
+            way we can select one accordians at a time-->
+    
+            <div class="open_multiple">
+            <div class="item_list">
+                <input type="radio" id="rd1" name="rd">
+                <label class="items" for="rd1">Item 1</label>
+                <div class="description">hidden
+                </div>
+            </div>
+        
+            <div class="item_list">
+                <input type="radio" id="rd2" name="rd">
+                <label class="items" for="rd2">Item 2</label>
+            <div class="description">hidden2
+            </div>
+            </div>
+                
+            </div>
+        <!--End of Div Section -->
+      
+    </footer>
+    
+<!-- End of Footer section -->
+
+
+        
+</body>
+
+</html>
+
+<!--End of HTML content-->
